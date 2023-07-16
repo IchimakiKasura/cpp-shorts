@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-#include "lib/console.h"
-#include "lib/io.h"
+#include "lib/console.hpp"
+#include "lib/io.hpp"
 using namespace std;
 
 // test Console.h

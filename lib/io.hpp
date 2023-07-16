@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -21,7 +22,7 @@ class __io__ final
 
             // automatically adds new line at the end
             if(c!='\n' && allowNewLine)
-                result+'\n';
+                result.push_back('\n');
                 
             FileRead.close();
 
